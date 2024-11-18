@@ -5,7 +5,7 @@ import json
 def main():
     st.set_page_config(page_title="Llama-CoT", page_icon="🦙", layout="wide")
     
-    st.title("Llama-CoT: Powered by llama-3.1-70b on Groq producing o1-like reasoning chains")
+    st.title("Llama-CoT: LLama-3.1-70B using chain of thought")
     
     user_query = st.text_input("Enter your query:", placeholder="e.g., How many 'R's are in the word strawberry?")
     
